@@ -1,9 +1,10 @@
 <h2>Creators:</h2>
  <ul>
-     <li>github.com/sandervbenthem</li>
-     <li>github.com/siemenst</li>
-     <li>github.com/Melleh</li>
+     <li><a href="github.com/sandervbenthem">Sander</a></li>
+     <li><a href="github.com/siemenst">Siemen</a></li>
+     <li><a href="github.com/Melleh">Melvin</a></li>
  </ul>
+
 <hr>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
