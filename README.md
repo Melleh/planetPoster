@@ -1,8 +1,8 @@
 <h2>Creators:</h2>
  <ul>
-     <li><a href="github.com/sandervbenthem">Sander</a></li>
-     <li><a href="github.com/siemenst">Siemen</a></li>
-     <li><a href="github.com/Melleh">Melvin</a></li>
+     <li><a href="https://github.com/sandervbenthem">Sander</a></li>
+     <li><a href="https://github.com/siemenst">Siemen</a></li>
+     <li><a href="https://github.com/Melleh">Melvin</a></li>
  </ul>
 
 <hr>
