@@ -15,12 +15,14 @@ class CreatePurchaseOrdersTable extends Migration
     {
         Schema::create('purchase_orders', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('customer_id');
 
-            $table->date('order_date')->default(new DateTime());
+            $table->timestamp('order_date')->nullable();
+
             $table->timestamps();
 
 
-            $table->foreign('customer_id')->references('id')->on('customers');
+            // $table->foreign('customer_id')->references('id')->on('customers');
         });
     }
 

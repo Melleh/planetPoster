@@ -18,8 +18,8 @@ class CreateOrderDetails extends Migration
             $table->timestamps();
 
 
-            $table->foreign('order_id')->references('id')->on('purchase_orders');
-            $table->foreign('product_id')->references('id')->on('products');
+            // $table->foreign('order_id')->references('id')->on('purchase_orders');
+            // $table->foreign('product_id')->references('id')->on('products');
         });
     }
 

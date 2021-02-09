@@ -28,7 +28,7 @@ class CreateProductsTable extends Migration
             $table->timestamps();
 
 
-            $table->foreign('artist_id')->references('id')->on('artists');
+            // $table->foreign('artist_id')->references('id')->on('artists');
 
 
 
