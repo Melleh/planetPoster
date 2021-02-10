@@ -16,7 +16,7 @@ class CreateProductsTable extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
 
-            $table->unsignedBigInteger('artist_id');
+            $table->unsignedBigInteger('user_id');
 
             $table->string('product_name');
             $table->string('product_type');
@@ -28,7 +28,7 @@ class CreateProductsTable extends Migration
             $table->timestamps();
 
 
-            $table->foreign('artist_id')->references('id')->on('artists');
+            $table->foreign('user_id')->references('id')->on('users');
 
 
 

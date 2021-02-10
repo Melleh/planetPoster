@@ -41,13 +41,16 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function artistProfile()
-    {
-        return $this->hasOne(ArtistProfile::class);
-    }
 
-    public function product()
+    public function products()
     {
         return $this->hasMany(Product::class);
     }
+
+    public function addresses()
+    {
+        return $this->hasMany(Address::class);
+    }
+
+
 }
