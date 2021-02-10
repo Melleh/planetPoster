@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class PurchaseOrder extends Model
 {
     use HasFactory;
+
+    public function orderDetails()
+    {
+        // return $this->hasOne()
+
+    }
 }

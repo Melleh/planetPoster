@@ -15,13 +15,14 @@ class CreatePhonesTable extends Migration
     {
         Schema::create('phones', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('user_id');
 
             $table->integer('phone_number')->unsigned()->nullable();
 
             $table->timestamps();
 
 
-            // $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 

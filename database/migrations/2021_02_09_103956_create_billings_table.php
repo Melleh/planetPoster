@@ -15,13 +15,13 @@ class CreateBillingsTable extends Migration
     {
         Schema::create('billings', function (Blueprint $table) {
             $table->id();
-
+            $table->unsignedBigInteger('user_id');
             $table->integer('bank_acount')->unsigned()->nullable();
 
             $table->timestamps();
 
 
-            // $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 

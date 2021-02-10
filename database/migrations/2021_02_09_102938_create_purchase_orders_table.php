@@ -22,7 +22,7 @@ class CreatePurchaseOrdersTable extends Migration
             $table->timestamps();
 
 
-            // $table->foreign('customer_id')->references('id')->on('customers');
+            $table->foreign('customer_id')->references('id')->on('customers');
         });
     }
 

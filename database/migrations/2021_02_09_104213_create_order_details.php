@@ -14,12 +14,15 @@ class CreateOrderDetails extends Migration
     public function up()
     {
         Schema::create('order_details', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+
+            $table->unsignedBigInteger('product_id');
+            $table->unsignedBigInteger('order_id');
 
 
-            // $table->foreign('order_id')->references('id')->on('purchase_orders');
-            // $table->foreign('product_id')->references('id')->on('products');
+
+
+            $table->foreign('order_id')->references('id')->on('purchase_orders');
+            $table->foreign('product_id')->references('id')->on('products');
         });
     }
 
