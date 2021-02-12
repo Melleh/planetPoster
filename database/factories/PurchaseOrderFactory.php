@@ -2,18 +2,18 @@
 
 namespace Database\Factories;
 
-use App\Models\Phone;
+use App\Models\PurchaseOrder;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class PhoneFactory extends Factory
+class PurchaseOrderFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var string
      */
-    protected $model = Phone::class;
+    protected $model = PurchaseOrder::class;
 
     /**
      * Define the model's default state.
@@ -24,7 +24,9 @@ class PhoneFactory extends Factory
     {
         return [
             'user_id' => User::factory(),
-            'phone_number' => $this->faker->PhoneNumber
+            'order_date' => $this->faker->date($format = 'Y-m-d', $max = 'now'),
+            'Order_time' => $this->faker->time($format = 'H:i:s', $max = 'now')
+
         ];
     }
 }

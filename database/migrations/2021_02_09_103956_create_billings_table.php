@@ -16,12 +16,15 @@ class CreateBillingsTable extends Migration
         Schema::create('billings', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('user_id');
-            $table->integer('bank_acount')->unsigned()->nullable();
+            $table->string('creditcard_type', 100)->nullable();
+            $table->bigInteger('creditcard_number')->nullable();
+            $table->date('creditcard_expiration_date')->nullable();
+            $table->string('iban', 100)->nullable();
 
             $table->timestamps();
 
 
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 
