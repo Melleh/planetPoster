@@ -17,7 +17,8 @@ class CreatePhonesTable extends Migration
             $table->id();
             $table->unsignedBigInteger('user_id');
 
-            $table->integer('phone_number')->unsigned()->nullable();
+            $table->string('phone_number', 100)->nullable();
+            $table->string('phone_number_secondary', 100)->nullable();
 
             $table->timestamps();
 
