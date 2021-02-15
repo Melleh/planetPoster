@@ -13,16 +13,16 @@ class CreatePurchaseOrdersTable extends Migration
      */
     public function up()
     {
-        Schema::create('purchase_orders', function (Blueprint $table) {
-            $table->id();
-            $table->unsignedBigInteger('user_id');
-            $table->date('order_date');
-            $table->time('Order_time');
-            $table->timestamps();
+        // Schema::create('purchase_orders', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->unsignedBigInteger('user_id');
+        //     $table->date('order_date');
+        //     $table->time('Order_time');
+        //     $table->timestamps();
 
 
-            $table->foreign('user_id')->references('id')->on('users');
-        });
+        //     $table->foreign('user_id')->references('id')->on('users');
+        // });
     }
 
     /**

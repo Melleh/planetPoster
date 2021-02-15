@@ -11,20 +11,13 @@ class CreateOrderDetails extends Migration
      *
      * @return void
      */
-    public function up()
-    {
-        Schema::create('order_details', function (Blueprint $table) {
-
-            $table->unsignedBigInteger('product_id');
-            $table->unsignedBigInteger('order_id');
+    // public function up()
+    // {
+    //     Schema::create('order_details', function (Blueprint $table) {
 
 
-
-
-            $table->foreign('order_id')->references('id')->on('purchase_orders');
-            $table->foreign('product_id')->references('id')->on('products');
-        });
-    }
+    //     });
+    // }
 
     /**
      * Reverse the migrations.
