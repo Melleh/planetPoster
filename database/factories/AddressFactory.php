@@ -23,16 +23,13 @@ class AddressFactory extends Factory
     public function definition()
     {
         return [
-            'user_id' => User::factory(),
+            'user_id' => User::all()->pluck('id')->last(),
             'street' => $this->faker->streetName,
             'house_number' => $this->faker->buildingNumber,
             'addition' => $this->faker->optional($weight = 0.3)->randomLetter,
             'city' => $this->faker->city,
             'postal_code' => $this->faker->numberBetween($min = 7000, $max = 9000),
             'country' => $this->faker->country
-
-
-
         ];
     }
 }

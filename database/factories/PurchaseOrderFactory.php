@@ -23,7 +23,8 @@ class PurchaseOrderFactory extends Factory
     public function definition()
     {
         return [
-            'user_id' => User::factory(),
+            // App\Models\User::orderByDesc('id')->take(3)->pluck('id')->random();
+            'user_id' => User::all()->pluck('id')->last(),
             'order_date' => $this->faker->date($format = 'Y-m-d', $max = 'now'),
             'Order_time' => $this->faker->time($format = 'H:i:s', $max = 'now')
 

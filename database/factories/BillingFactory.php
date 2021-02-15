@@ -23,7 +23,7 @@ class BillingFactory extends Factory
     public function definition()
     {
         return [
-            'user_id' => User::factory(),
+            'user_id' => User::all()->pluck('id')->last(),
             'creditcard_type' => $this->faker->creditCardType,    // string
             'creditcard_number' => $this->faker->creditCardNumber,  // bigInteger
             'creditcard_expiration_date' => $this->faker->creditCardExpirationDate, // date
