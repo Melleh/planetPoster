@@ -127,7 +127,6 @@
                     </div>
                 </div>
 
-            </div>
 
 
 
@@ -143,7 +142,8 @@
 
 
 
-            <div class="row aln-center">
+
+
 
                 <div class="col-3 col-6-medium col-12-small">
                     <div class="product-container">
@@ -225,7 +225,7 @@
                     </div>
                 </div>
 
-            </div>
+
 
 
 
