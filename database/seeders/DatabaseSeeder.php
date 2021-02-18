@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
                 PhoneSeeder::class,
                 AddressSeeder::class,
                 BillingSeeder::class,
+                ProductSeeder::class,
                 PurchaseOrderSeeder::class
                 ]);
         }
