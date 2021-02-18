@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\Product;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
 
@@ -9,6 +11,8 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/strongly', function () {
+    $product = Product::all();
+    return $product;
     return view('strongly');
 });
 
@@ -22,3 +26,5 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
+
+Route::get('/products', 'App\Http\Controllers\ProductController@index');
