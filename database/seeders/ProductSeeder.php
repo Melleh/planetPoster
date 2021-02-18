@@ -18,19 +18,22 @@ class ProductSeeder extends Seeder
      */
     public function run()
     {
-        $this->call([
-            UserSeeder::class]);
 
-        DB::table('products')->insertGetId([
-            'user_id' => User::all()->pluck('id')->last(),
-            'product_image' => ,
-            'product_name' => Str::random(10).'@gmail.com',
-            'product_type' => Hash::make('password'),
-            'price' => Hash::make('password'),
-            'quantity_in_stock' => Hash::make('password'),
-            'vat' => Hash::make('password'),
+        Product::factory()->create();
 
-        ]);
+        // $this->call([
+        //     UserSeeder::class]);
+
+        // DB::table('products')->insertGetId([
+        //     'user_id' => User::all()->pluck('id')->last(),
+        //     'product_image' => ,
+        //     'product_name' => Str::random(10).'@gmail.com',
+        //     'product_type' => Hash::make('password'),
+        //     'price' => Hash::make('password'),
+        //     'quantity_in_stock' => Hash::make('password'),
+        //     'vat' => Hash::make('password'),
+
+        // ]);
 
     }
 }
