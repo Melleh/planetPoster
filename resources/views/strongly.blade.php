@@ -44,21 +44,402 @@
     <!-- Features -->
     <section id="features">
         <div class="container">
-            <header>
-                <h2>Gentlemen, behold! This is <strong>Strongly Typed</strong>!</h2>
-            </header>
+
             <div class="row aln-center">
+
                 <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
 
-                    <!-- Feature -->
-                    <section>
-                        <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-                        <header>
-                            <h3>Poster Titel</h3>
-                        </header>
-                    </section>
-
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
+
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
+
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
+
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="row aln-center">
+
+                <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
+
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
+
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
+
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
+
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="row aln-center">
+
+                <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
+
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
+
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
+
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
+
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="row aln-center">
+
+                <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
+
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
+
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
+
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-6-medium col-12-small">
+                    <div class="product-container">
+                        <div class="product-image">
+                            <a href="#" class="image featured">
+                                <img src="images/pic01.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="product-price">
+
+                        </div>
+                        <div class="product-caption">
+                            <h3>Poster Titel
+                                <div>
+                                    <a href=""></a>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{--
 
                 <div class="col-3 col-6-medium col-12-small">
 
@@ -292,6 +673,7 @@
 
                 </div>
             </div>
+            --}}
         </div>
     </section>
 
