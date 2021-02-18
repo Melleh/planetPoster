@@ -10,11 +10,9 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/strongly', function () {
-    $product = Product::all();
-    return $product;
-    return view('strongly');
-});
+// Route::get('/strongly', function () {
+//     return view('strongly');
+// });
 
 
 Route::get('/', function () {
@@ -27,4 +25,4 @@ Route::get('/dashboard', function () {
 
 require __DIR__.'/auth.php';
 
-Route::get('/products', 'App\Http\Controllers\ProductController@index');
+Route::get('/strongly', 'App\Http\Controllers\ProductController@index')->name('products.index');
