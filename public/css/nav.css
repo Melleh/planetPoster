@@ -1,0 +1,41 @@
+#navbar{
+
+    margin: 0;
+    z-index: 1000;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    padding: 15px 0px;
+    min-height: 7vh;
+
+    background-color:grey;
+    border: 1px solid black;
+
+}
+
+#navbar .nav-flex-item-1{
+    display: flex;
+    background-color:pink;
+    border: 1px solid black;
+}
+#navbar .nav-flex-item-2{
+    display: flex;
+
+    background-color:pink;
+    border: 1px solid black;
+
+}
+#navbar .nav-flex-item-3{
+    display: flex;
+
+    background-color:pink;
+    border: 1px solid black;
+
+}
+#navbar .nav-flex-item-4{
+    background-color:pink;
+    border: 1px solid black;
+
+}

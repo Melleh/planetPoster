@@ -9,6 +9,11 @@ class Product extends Model
 {
     use HasFactory;
 
+    public function path()
+    {
+        return route('products.show', $this);
+    }
+
     public function user()
     {
         return $this->belongsTo(User::class);
