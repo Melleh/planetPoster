@@ -19,17 +19,10 @@
 <body class="homepage is-preload">
     <div id="page-wrapper">
 
+        @yield('header')
         @yield('content')
 
     </div>
-
-
-
-
-
-
-
-
 
 
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
