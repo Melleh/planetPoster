@@ -18,17 +18,26 @@
 
 <body class="homepage is-preload">
     <div id="page-wrapper">
-        @yield('header')
+
         @yield('content')
 
-        <!-- Scripts -->
-        <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
-        <script src="{{ asset('assets/js/jquery.dropotron.min.js') }}"></script>
-        <script src="{{ asset('assets/js/browser.min.js') }}"></script>
-        <script src="{{ asset('assets/js/breakpoints.min.js') }}"></script>
-        <script src="{{ asset('assets/js/util.js') }}"></script>
-        <script src="{{ asset('assets/js/main.js') }}"></script>
     </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.dropotron.min.js') }}"></script>
+    <script src="{{ asset('assets/js/browser.min.js') }}"></script>
+    <script src="{{ asset('assets/js/breakpoints.min.js') }}"></script>
+    <script src="{{ asset('assets/js/util.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 
 </html>
