@@ -26,4 +26,5 @@ Route::get('/dashboard', function () {
 require __DIR__.'/auth.php';
 
 Route::get('/', 'App\Http\Controllers\ProductController@index')->name('products.index');
+Route::get('/{product}', 'App\Http\Controllers\ProductController@show')->name('products.show');
 

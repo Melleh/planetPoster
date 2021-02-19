@@ -18,4 +18,16 @@ public function index()
 
 }
 
+public function show(Product $product)
+{
+    $features = Product::take(3)->get();
+
+    return view('products.show', [
+        'product' => $product,
+        'features' => $features
+        ]);
+
+}
+
+
 }
