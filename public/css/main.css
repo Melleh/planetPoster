@@ -2,18 +2,20 @@
     background-color: white;
 }
 #features{
-    background-color: rgb(2, 172, 172);
+    background-image: url('../images/doodle-bg.jpg');
     padding-top:0;
     margin-top: 0;
-    border-top: solid 2px #e5e5e5;
 }
 
 #features .container{
     padding: 20px;
-    background-color: white;
+    background-color: rgb(31, 31, 31);
 
 }
-
+#header {
+    background-color: black;
+    border: none;
+}
 #header .container{
     border: none;
     box-shadow: none;
