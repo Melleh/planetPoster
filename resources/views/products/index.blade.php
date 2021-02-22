@@ -1,13 +1,13 @@
 @extends('layout')
-<!-- Header -->
+@section('header')
 <div class="container">
-        @section('header')
-        <!-- Logo -->
-        <h1 id="logo"><a href="index.html">Planet Poster</a></h1>
-        <p>Design with passion</p>
 
-        @endsection
+    <!-- Logo -->
+        <h1 id="logo"><a href="index.html">Planet Poster</a></h1>
+        <p></p>
+
 </div>
+@endsection
 @section('content')
 
 <!-- Features -->
