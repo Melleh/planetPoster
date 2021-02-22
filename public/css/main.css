@@ -3,12 +3,20 @@
 }
 #features{
     background-color: rgb(2, 172, 172);
-    padding:0;
-    margin-top: 20px;
+    padding-top:0;
+    margin-top: 0;
+    border-top: solid 2px #e5e5e5;
 }
 
 #features .container{
+    padding: 20px;
     background-color: white;
+
+}
+
+#header .container{
+    border: none;
+    box-shadow: none;
 
 }
 
@@ -21,11 +29,17 @@
     border-style: solid;
     border-width: 1px 0 0 1px;
     border-color: #ededed;
+
 }
 
 .container{
     max-width:1200px;
     padding: 1px;
+    width: 80%;
+}
+
+section{
+    margin: 0;
 }
 /* #features {
         padding: 1em 0;
