@@ -28,10 +28,10 @@
 
     <section id="header">
         <nav id="navBar" class="navBar nav-flex-container navbar-header">
-            <div class="nav-flex-item-1">
+            <div class="nav-flex-item-1 ">
                 <a class=" nav-logo" href="/">
-                    <img src="public/images/giraffe.png" alt="">
-                    PlanetPoster</a>
+                    <img src="{{asset ('images/banner.jpg')}}" alt="">
+                    </a>
             </div>
             <div class="nav-flex-item-2">
                 <ul class="nav-links">
