@@ -32,10 +32,10 @@
                 <div class="nav-flex-item-2">
                     <ul class="nav-links">
                         <li>
-                            <a href="/quiz">Quiz</a>
+                            <a href="/">Home</a>
                         </li>
                         <li>
-                            <a href="/leaderboard">Leaderboard</a>
+                            <a href="/leaderboard">Posters</a>
                         </li>
                         <li>
                             <a href="/contact">Contact</a>
