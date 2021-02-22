@@ -11,6 +11,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="{{ asset('assets/css/strongly.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/tail.css')}}">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com">

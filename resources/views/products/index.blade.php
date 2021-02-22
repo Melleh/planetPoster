@@ -20,7 +20,7 @@
 
             @foreach ($products as $product)
 
-            <div class="col-3 col-6-medium col-12-small">
+            <div class="col-3 col-4-large col-6-medium col-12-small">
                 <div class="product-container">
                     <div class="product-image">
                         <a href="{{ $product->path() }}" class="image featured">
