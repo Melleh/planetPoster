@@ -19,8 +19,8 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-Route::get('/tail', function () {
-    return view('tail');
+Route::get('/test', function () {
+    return view('test');
 });
 
 Route::get('/dashboard', function () {
