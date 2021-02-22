@@ -4,6 +4,9 @@ module.exports = {
     purge: ['./storage/framework/views/*.php', './resources/views/**/*.blade.php'],
 
     theme: {
+        maxWidth: {
+
+        },
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],

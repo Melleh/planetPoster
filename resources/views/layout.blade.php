@@ -57,7 +57,7 @@
             </nav>
 
 
-            <div class="container">
+
                 @yield('header')
 
 
@@ -89,7 +89,7 @@
                         <li><a class="icon solid fa-sitemap" href="no-sidebar.html"><span>No Sidebar</span></a></li>
                     </ul>
                 </nav> --}}
-            </div>
+
         </section>
 
 
