@@ -138,7 +138,7 @@ input, select, textarea {
 		transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		color: #666;
 		text-decoration: none;
-		border-bottom: solid 1px #ddd;
+		/* border-bottom: solid 1px #ddd; */
 	}
 
 		a strong {
@@ -1486,7 +1486,7 @@ input, select, textarea {
 		-ms-transition: opacity 0.25s ease-in-out;
 		transition: opacity 0.25s ease-in-out;
 		display: inline-block;
-		border: solid 6px #ebebeb !important;
+		/* border: solid 6px #ebebeb !important; */
 	}
 
 		.image:hover {
