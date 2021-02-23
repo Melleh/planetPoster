@@ -48,6 +48,14 @@ html, body{
     padding: 20px;
 }
 
+#putincart {
+
+    width: 120px;
+    background-color: #21aa21;
+    color: black;
+    border: 1px solid #21aa21;
+}
+
 
 
 /* .product-image {
