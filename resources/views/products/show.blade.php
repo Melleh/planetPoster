@@ -1,9 +1,6 @@
 @extends('layout')
 @section('header')
-<div class="container">
-
-    <!-- Logo -->
-    <h1 id="logo"><a href="/">Planet Poster</a></h1>
+<div class="spacer">
     <p></p>
 
 </div>

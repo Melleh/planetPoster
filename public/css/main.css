@@ -3,6 +3,7 @@ html, body{
 }
 
 
+
 #main {
 
     background-color: rgb(31, 31, 31);
@@ -40,6 +41,11 @@ html, body{
     border: none;
     box-shadow: none;
 
+}
+
+.spacer {
+
+    padding: 20px;
 }
 
 
