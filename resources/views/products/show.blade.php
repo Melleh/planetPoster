@@ -27,12 +27,29 @@
 
                 <!-- Post -->
                 <article class="box post">
-                    
+
                     <span class="image featured"><img src="{{ $product->product_image }}" alt="" /></span>
                     <br>
                     <h3>More lovely posters</h3>
-                 
-                    
+
+
+                        <div class="row aln-center">
+                                @foreach ($features as $feature)
+                                <div class="col-3 col-4-large col-6-medium col-12-small">
+
+
+                                        <h3>
+                                            <a href="/{{ $feature->path() }}">{{ $feature->product_name }}</a>
+                                        </h3>
+                                            <img src="{{ $feature->product_image }}" alt="" />
+
+
+                                </div>
+                                @endforeach
+
+                        </div>
+
+
                 </article>
 
             </div>
@@ -45,7 +62,7 @@
 
 
 
-                        
+
 
                             <!-- Excerpt -->
                             <br>
@@ -69,8 +86,8 @@
                                     <button type="button" id="putincart">Put in cart!</button>
                             </article>
 
-                        
-                                        
+
+
                 </section>
 
             </div>
