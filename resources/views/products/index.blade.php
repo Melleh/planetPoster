@@ -3,8 +3,8 @@
 <div class="container">
 
     <!-- Logo -->
-        <h1 id="logo"><a href="index.html">Planet Poster</a></h1>
-        <p></p>
+    <h1 id="logo"><a href="index.html">Planet Poster</a></h1>
+    <p></p>
 
 </div>
 @endsection
@@ -44,5 +44,6 @@
 
         </div>
     </div>
+
 </section>
 @endsection

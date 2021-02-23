@@ -16,10 +16,10 @@
     justify-content: space-around;
     align-items: flex-end;
     width: 100%;
-    position: fixed;
-    background-color: rgb(31, 31, 31);
     padding: 15px 0px;
     min-height: 7vh;
+    position: absolute;
+    /* background-color: rgb(31, 31, 31); */
 
    }
 .navBar li, button{
@@ -27,8 +27,8 @@
     font-size: 17px;
 }
 .nav-logo img {
-    height: 35px;
-    width: 35px;
+    height: 50px;
+    width: 250px;
     display: inline-block;
     vertical-align: baseline;
 }
