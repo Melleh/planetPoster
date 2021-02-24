@@ -25,7 +25,8 @@ class ProductFactory extends Factory
         return [
             'user_id' => User::all()->pluck('id')->last(),
             'product_image' => 'https://loremflickr.com/258/258'.$this->faker->numerify('?random= ####'),
-            'product_name' => $this->faker->numerify('Poster #'),
+            'product_name' => $this->faker->numerify('Poster ##'),
+            'price' => 6.66,
             'product_type' => $this->faker->randomDigit
 
         ];

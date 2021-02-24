@@ -17,7 +17,6 @@
         <div class="row aln-center">
 
 
-
             @foreach ($products as $product)
 
             <div class="col-3 col-4-large col-6-medium col-12-small">

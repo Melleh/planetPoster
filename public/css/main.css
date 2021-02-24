@@ -15,15 +15,29 @@ html, body{
     margin-top: 0;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: ;
 }
 
 #features .container{
-    padding: 50px;
+    padding: 20px 15px ;
     background-color: rgb(31, 31, 31);
 
 }
+/* #features .row col{
+    padding: 0px;
+} */
+
+.row {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+    .row > * {
+        padding: 10px 15px ;
+    }
+
+
 #header {
     background-color: black;
     border: none;
@@ -39,7 +53,7 @@ html, body{
 .product-image {
     overflow: hidden;
     border-radius: 4px;
-    box-shadow: 4px 5px 7px -5px #666;
+    box-shadow: 4px 5px 7px -5px black;
     border-style: solid;
     /* border-width: 1px 0 0 1px; */
     border-color: #ededed;
@@ -48,7 +62,7 @@ html, body{
 
 .container{
     /* max-width:1200px; */
-    padding: 1px;
+    padding: 0px;
     width: 70%;
 }
 

@@ -23,4 +23,9 @@ class Product extends Model
     {
         return $this->belongsToMany(Order::class, 'order_id');
     }
+
+    // public function getPriceAttribute($value)
+    // {
+    //     return number_format($this->price, 2, ',')
+    // }
 }
