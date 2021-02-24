@@ -1,8 +1,17 @@
 html, body{
     height: 100%;
 }
+
+
+
+#main {
+
+    background-color: rgb(31, 31, 31);
+    
+}
 #page-wrapper{
     background-color: white;
+    
 }
 #features{
     background-color: transparent;
@@ -34,9 +43,22 @@ html, body{
 
 }
 
+.spacer {
+
+    padding: 20px;
+}
+
+#putincart {
+
+    width: 120px;
+    background-color: #21aa21;
+    color: black;
+    border: 1px solid #21aa21;
+}
 
 
-.product-image {
+
+/* .product-image {
     overflow: hidden;
     border-radius: 4px;
     box-shadow: 4px 5px 7px -5px #666;
@@ -44,13 +66,14 @@ html, body{
     border-width: 1px 0 0 1px;
     border-color: #ededed;
 
-}
+} */
 
 .container{
     max-width:1200px;
     padding: 1px;
     width: 80%;
 }
+
 
 section{
     margin: 0;
