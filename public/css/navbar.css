@@ -8,64 +8,35 @@
     text-transform: none;
     vertical-align: unset;
 }
-
+nav{
+    padding: 20px;
+}
 .navBar {
     z-index: 1000;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    padding: 15px 0px;
+    padding: 0px;
     min-height: 7vh;
-    position: absolute;
-    /* background-color: rgb(31, 31, 31); */
-
    }
+
 .navBar li, button{
     font-weight: 500;
     font-size: 17px;
 }
-.nav-logo img {
-    height: 50px;
-    width: 250px;
-    display: inline-block;
-    vertical-align: baseline;
-}
-        .nav-flex-item-1, .nav-flex-item-3{
-            display: inline-block;
-            flex-grow: 1;
-            text-align: center;
-        }
-        .nav-flex-item-2, .nav-flex-item-4{
-            flex-grow: 2;
-            text-align: center;
-        }
-            .navBar .nav-logo {
-                display: inline-block;
-                margin: 0;
-                padding: 0;
-                color: orangered;
-                text-decoration: none;
-                font-weight: 600;
-                letter-spacing: 2px;
-                font-size: 30px;
-                text-align: center;
-            }
-            .navBar .nav-logo:hover{
-                text-decoration: none;
-                color:black;
-                cursor: pointer;
-            }
+
             .nav-links{
                 margin: 0;
                 padding: 0;
+                align-self: center;
+
                 display: flex;
-                flex-flow: row nowrap;
-                justify-content: space-around;
+                justify-content: center;
             }
                 .nav-links li {
                     list-style: none;
+                    padding: 0 40px 0 40px;
                     display: inline-block;
                 }
                 .nav-links li a {
@@ -78,13 +49,12 @@
                     color: violet;
                 }
                 .nav-login{
-                    margin: 0;
+                    margin: 0 20px 0 20px;
                     padding: 0;
                     display: flex;
-                    flex-flow: row nowrap;
-                    justify-content: center;
+                    align-self: flex-end;
+                    position: absolute;
                 }
-
                     .nav-login a button {
                         padding: 9px 25px;
                         margin: 0px 4px;
@@ -120,6 +90,8 @@
             .burger{
                 display: none;
                 cursor: pointer;
+                align-self: flex-start;
+
             }
                 .burger div{
                     width: 25px;
@@ -129,6 +101,15 @@
                     transition: all 0.3s ease;
                 }
 
+@media screen and (max-width:1280px){
+    .nav-links{
+        margin: 0;
+        padding: 0;
+        align-self: flex-start;
+        display: flex;
+        justify-content: center;
+                    }
+                }
 
 @media screen and (max-width:864px){
     .nav-links{
@@ -144,10 +125,11 @@
         transform: translateX(100%);
 
     }
+
     .nav-links li{
         opacity: 0;
     }
-    .nav-flex-item-4{
+    .burger{
         display: flex;
         flex-direction: column;
         align-items: center;

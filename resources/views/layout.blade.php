@@ -20,37 +20,32 @@
 <body class="homepage is-preload">
 
     <section id="header">
-        <nav id="navBar" class="navBar nav-flex-container navbar-header">
-            <div class="nav-flex-item-1 ">
-                <a class=" nav-logo" href="/">
-                    <img src="{{asset ('images/banner.jpg')}}" alt="">
-                </a>
-            </div>
-            <div class="nav-flex-item-2">
-                <ul class="nav-links">
+        <nav >
+            <div id="navBar" class="navBar nav-flex-container navbar-header">
+                <div class="burger nav-flex-item-4">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <div class="nav-links">
                     <li>
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="/leaderboard">Posters</a>
+                        <a href="#">Posters</a>
                     </li>
                     <li>
-                        <a href="/contact">Contact</a>
+                        <a href="#">Contact</a>
                     </li>
-                </ul>
-            </div>
-            <div class="nav-flex-item-3">
+                </div >
                 <div class="nav-login">
                     <a href="/login"><button class="logInButton">Log In</button></a>
                     <a href="/register"><button class="registerButton">Register</button></a>
                 </div>
             </div>
 
-            <div class="burger nav-flex-item-4">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
+
+
         </nav>
 
         @yield('header')
@@ -139,7 +134,6 @@
     </section>
 
     <script src="{{ asset('js/navbar.js') }}"></script>
-
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.dropotron.min.js') }}"></script>
     <script src="{{ asset('assets/js/browser.min.js') }}"></script>
