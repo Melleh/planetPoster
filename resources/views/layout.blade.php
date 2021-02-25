@@ -49,7 +49,8 @@
         </nav>
 
         @yield('header')
-        </div>
+
+
     </section>
 
 
