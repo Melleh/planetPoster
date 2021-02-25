@@ -11,6 +11,7 @@
 @section('content')
 
 <!-- Features -->
+<section id="features">
     <div class="container">
 
         <div class="row aln-center">
@@ -42,5 +43,6 @@
 
         </div>
     </div>
+
 </section>
 @endsection
