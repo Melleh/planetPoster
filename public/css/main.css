@@ -11,17 +11,13 @@ html, body{
 }
 
 #features{
-    background-color: transparent;
     padding-top:0;
     margin-top: 0;
-}
-#features{
-    background-image: url('../images/doodle-bg.jpg');
-    padding-top:0;
-    margin-top: 0;
+    background-color: #800020;
+    /* background-image: url('../images/doodle-bg.jpg');
     background-attachment: fixed;
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: repeat; */
 
 
 
@@ -32,9 +28,11 @@ html, body{
     background-color: rgb(31, 31, 31);
 
 }
-/* #features .row col{
-    padding: 0px;
-} */
+#footer{
+    background-color: black;
+    border: none;
+    height: 100vh;
+}
 
 .row {
     margin-top: 0px;
@@ -47,7 +45,7 @@ html, body{
 
 
 #header {
-    background-image: url('../images/doodle-bg.jpg');
+    background-color: black;
     border: none;
 }
 #header nav {
