@@ -18,6 +18,7 @@
 </head>
 
 <body class="homepage is-preload">
+    <div id="bg"></div>
 
     <section id="header">
         <nav >
@@ -49,12 +50,16 @@
         </nav>
 
         @yield('header')
-        </div>
+
+        <div id="bg"></div>
+
     </section>
+    <div id="bg"></div>
 
 
         @yield('content')
 
+        <div id="bg"></div>
 
     <!-- Footer -->
     <section id="footer">
