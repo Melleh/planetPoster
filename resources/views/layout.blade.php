@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Strongly Typed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 <head>
@@ -20,8 +15,6 @@
         rel="stylesheet">
     <link rel="icon" href="public/images/cg-favicon.png" sizes="32x32">
     <link rel="stylesheet" href="{{ asset('/css/navbar.css') }}">
-
-
 </head>
 
 <body class="homepage is-preload">
@@ -65,7 +58,7 @@
     </section>
 
 
-    @yield('content')
+        @yield('content')
 
 
     <!-- Footer -->
@@ -154,5 +147,4 @@
     <script src="{{ asset('assets/js/util.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
-
 </html>
