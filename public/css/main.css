@@ -7,11 +7,11 @@ html, body{
 #main {
 
     background-color: rgb(31, 31, 31);
-    
+
 }
 #page-wrapper{
     background-color: white;
-    
+
 }
 #features{
     background-color: transparent;
@@ -77,7 +77,7 @@ html, body{
     border-radius: 4px;
     box-shadow: 4px 5px 7px -5px black;
     border-style: solid;
-    /* border-width: 1px 0 0 1px; */
+    border-width: 1px 0 0 1px;
     border-color: #ededed;
 
 } */
